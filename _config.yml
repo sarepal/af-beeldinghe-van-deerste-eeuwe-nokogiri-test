@@ -1,0 +1,69 @@
+author:
+  email: null
+  name: An Author
+  twitter: null
+  url: null
+baseurl: /af-beeldinghe-van-deerste-eeuwe-nokogiri-test
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:path/
+  volume_pages:
+    output: true
+    permalink: /pages/:path/
+defaults:
+- scope:
+    path: ''
+    type: volume_pages
+  values:
+    deep_zoom: true
+    extra_js:
+    - volume-page.js
+    - hammer.min.js
+    - deepzoom.js
+    - openseadragon.min.js
+    layout: volume_page
+    short_label: p.
+- scope:
+    path: ''
+    type: annotations
+  values:
+    layout: annotation
+description: An annotated digital edition created with <a href="http://readux.library.emory.edu/">Readux</a>
+gems:
+- jekyll-sitemap
+homepage_image: https://testreadux.ecds.emory.edu/books/emory:b70fm/pages/emory:gt265/single-page/
+image_size:
+  page:
+    height: 1000
+    width: 798
+  small-thumbnail:
+    height: 100
+    width: 79
+  thumbnail:
+    height: 300
+    width: 239
+permalink: pretty
+publication_info:
+  author: Bolland, Johannes, 1596-1665.
+  date: '2018'
+  editors:
+  - Sara Palmer
+  tei_xml: tei.xml
+  title: Af-beeldinghe van d'eerste eeuwe der Societeyt Iesu  voor ooghen ghestelt
+    door de Duyts-Nederlantsche provincie der seluer societeyt., an annotated digital
+    edition
+show_annotation_author: true
+source_info:
+  author: Bolland, Johannes, 1596-1665.
+  date: '1640'
+  pdf_url: https://testreadux.ecds.emory.edu/books/emory:b70fm/pdf/#page=2
+  title: Af-beeldinghe van d'eerste eeuwe der Societeyt Iesu  voor ooghen ghestelt
+    door de Duyts-Nederlantsche provincie der seluer societeyt.
+  url: https://testreadux.ecds.emory.edu/books/emory:b70fm/
+  via_readux: true
+tagline: ', an annotated digital edition'
+title: Af-beeldinghe van d'eerste eeuwe der Societeyt Iesu  voor ooghen ghestelt door
+  de Duyts-Nederlantsche provincie der seluer societeyt.
+url: https://sarepal.github.io
+version: 0.7
